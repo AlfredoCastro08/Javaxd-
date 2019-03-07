@@ -1,0 +1,30 @@
+public class Operaciones{
+  public static void main(String args[]){
+
+   int numUno=5;
+   int numDos=3;
+   int Resultado=0;
+   int parametro=2;
+
+   switch(parametro){
+
+    case 1: Resultado= numUno + numDos;
+            System.out.println("El resultado de la suma es:" + Resultado);
+            break;
+
+    case 2: Resultado= numUno - numDos;
+            System.out.println("El resultado de la resta es:" + Resultado);
+            break;
+
+    case 3: Resultado= numUno * numDos;
+            System.out.println("El resultado de la multiplicación es:" + Resultado);
+            break;
+
+    case 4: Resultado= numUno / numDos;
+            System.out.println("El resultado de la división es:" + Resultado);
+            break;
+
+    default: System.out.println("Error, la opción no existe");
+              break;
+  }
+ }
